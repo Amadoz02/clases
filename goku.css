@@ -14,7 +14,7 @@
 .spiderman{
   display: block;
   place-content: center;
-  width: 400px;
+  width: 100%;
   margin: 0px auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -50,6 +50,12 @@ div{
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   display: block;
+}
+.texto:hover{
+  background-color: rgb(135, 0, 0);
+  width: 200px;
+  height: 60px;
+  margin: 36px auto;
 }
 .text{
   margin: 10px 25px;
